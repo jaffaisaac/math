@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+    background-color: #1d1d1d41;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 20px;
+    flex-direction: column;
+   
+}
+.answer-container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+    gap: 10px;
+    background: none;
+}
+.score-container{
+    font-weight: 200;
+    font-size: 18px;
+}
+input{
+    outline: none;
+    border: none;
+    height: 3em;
+    background-color: #ccc;
+    border-radius: 5em;
+    text-align: center;
+    transition: 1s;
+    border-bottom: 4px solid blue;
+}
+.num1 ,.num2{
+    color: rgb(53, 50, 50);
+    background: none;
+  
+}
